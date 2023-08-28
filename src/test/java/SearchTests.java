@@ -24,19 +24,6 @@ public class SearchTests {
         $x("//input[@class='code-fragment'][2]").val("2");
         $x("//input[@class='code-fragment'][3]").val("3");
         $x("//input[@class='code-fragment'][4]").val("4");
-
-
-
-//        $(By.className("code-fragment__container")).$$/(By.className("code-fragment")).val("1234").shouldBe(visible);
-//        for(int i = 0; i < 5; i++) {
-//            $$(By.className("code-fragment")).iterator().forEachRemaining();
-//            $(By.className("code-fragment")).val("1");
-//        }
-        /*$(By.className("code-fragment__container")).$(By.className("code-fragment")).val("2").shouldBe(visible);
-        $(By.className("code-fragment__container")).$(By.className("code-fragment")).val("3").shouldBe(visible);
-        $(By.className("code-fragment__container")).$(By.className("code-fragment")).val("4").shouldBe(visible);
-        */
-//        $$(By.className("code-fragment")).;
     }
 
 
